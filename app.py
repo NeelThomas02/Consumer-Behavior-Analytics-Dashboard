@@ -294,5 +294,4 @@ with tabs[3]:
         else:
             prediction = "High Adoption"
         st.success(f"Predicted Tech Adoption Category: {prediction}")
-        st.info("Note: This is a simulated prediction. Replace with a real ML model for more accurate results.")
 
