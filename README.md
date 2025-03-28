@@ -68,6 +68,7 @@ Market Sentiment Prediction:
 A simulated prediction system takes consumer attributes as inputs and calculates a simple score to predict tech adoption. This can be replaced with a trained ML model for more accurate predictions.
 
 Requirements
+```bash
 Python 3.x
 
 Streamlit
@@ -83,6 +84,7 @@ Seaborn
 Plotly
 
 scikit-learn
+```
 
 (See the requirements.txt file for specific package versions.)
 
