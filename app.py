@@ -296,6 +296,3 @@ with tabs[3]:
         st.success(f"Predicted Tech Adoption Category: {prediction}")
         st.info("Note: This is a simulated prediction. Replace with a real ML model for more accurate results.")
 
-
-# st.markdown("---")
-# st.markdown("©2025 Winter (Dr. Shafaq Khan) Emerging Paradigms in Computing Technologies, All rights reserved.")
