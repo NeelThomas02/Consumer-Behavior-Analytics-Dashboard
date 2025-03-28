@@ -17,40 +17,41 @@ Designed with user-friendliness in mind, this dashboard includes plain-language 
 ```bash
 git clone https://github.com/NeelThomas02/Consumer-Behavior-Analytics-Dashboard
 cd Consumer-Behavior-Analytics
+```
 Create a Virtual Environment:
-bash
-Copy
+```bash
 python -m venv .venv
+```
 Activate the Virtual Environment:
 On Windows:
 
-bash
-Copy
+```bash
 .\.venv\Scripts\activate
+```
 On macOS/Linux:
 
-bash
-Copy
+```bash
 source .venv/bin/activate
+```
 Install Required Packages:
-bash
-Copy
+```bash
 pip install -r requirements.txt
+```
 Usage
 Generate the Synthetic Data:
 Run the following command to generate the CSV file:
 
-bash
-Copy
+```bash
 python synthetic_data_generation.py
+```
 This creates consumer_behavior_tech_revolutions.csv in the data/ folder (or in the project root, as specified).
 
 Run the Dashboard:
 Start the Streamlit app by running:
 
-bash
-Copy
+```bash
 streamlit run app.py
+```
 The app will open in your default web browser. Use the sidebar filters to refine the data and navigate through the various tabs.
 
 Features
