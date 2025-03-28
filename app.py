@@ -174,7 +174,7 @@ with tabs[1]:
         - Notice if older age groups (indicated by color) tend to have higher anxiety.
         """)
     
-    # Create an interactive Plotly scatter plot for hover functionality
+    # Interactive Plotly scatter plot for hover functionality
     fig2 = px.scatter(
         df_filtered,
         x="digital_literacy_score",
@@ -285,7 +285,7 @@ with tabs[3]:
         submitted = st.form_submit_button("Predict Adoption Category")
     
     if submitted:
-        # Simulated prediction logic; replace with your ML model's prediction as needed.
+        # Simulated prediction logic
         score = digital_literacy - tech_anxiety + (annual_purchases / 10)
         if score < 0.5:
             prediction = "Low Adoption"
