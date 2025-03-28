@@ -17,7 +17,7 @@ Clone the Repository:
 
 bash
 Copy
-git clone <repository-url>
+git clone https://github.com/NeelThomas02/Consumer-Behavior-Analytics-Dashboard
 cd Consumer-Behavior-Analytics
 Create a Virtual Environment:
 
